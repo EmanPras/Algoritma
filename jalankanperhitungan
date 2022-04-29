@@ -1,0 +1,18 @@
+import Angka.Perhitungan;
+
+public class JalankanPerhitungan {
+    public static void main(String[] args) {
+        Perhitungan s = new Perhitungan(4,6,0);
+
+        System.out.println("Method Perhitungan Dari Angka 4 dan Angka 6 :");
+
+        int hasiljumlah = s.hitungjumlah(4,6);
+        System.out.println("Penjumlahan : " + hasiljumlah);
+        int hasilkurang = s.hitungkurang(4,6);
+        System.out.println("Pengurangan : " + hasilkurang);
+        int hasilkali = s.hitungkali(4,6);
+        System.out.println("Perkalian : " + hasilkali);
+        int hasilbagi = s.hitungbagi(4,6);
+        System.out.println("Pembagian : " + hasilbagi);
+    }
+}
